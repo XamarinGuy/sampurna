@@ -5,8 +5,8 @@
              x:Class="Sampurna.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
+        <!-- Place new controls herevhv -->
+    	<Label Text="Welcome to Xamarin.Forms! love " 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
