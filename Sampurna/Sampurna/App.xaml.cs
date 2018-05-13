@@ -1,7 +1,9 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace Sampurna
 {
@@ -16,8 +18,8 @@ namespace Sampurna
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
-		}
+            AppCenter.Start("b1ff7392-6b14-4caa-bbc0-2b4d55b5ce31", typeof(Analytics), typeof(Crashes));
+        }
 
 		protected override void OnSleep ()
 		{
